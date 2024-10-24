@@ -159,7 +159,7 @@ let userScorePosition = 0;
 let userScoreColor = 0;
 
 function randomizeColor() {
-  const colors = ["#ee176b", "#008a73", "#325179"];
+  const colors = ["#ee176b", "#008a73", "#325179", "#eee600"];
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   colorIndex = randomColor;
   colorArr.push(randomColor);
