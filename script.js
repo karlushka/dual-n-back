@@ -105,8 +105,8 @@ function helpButton(e) {
   })
 );
 
-let n = 2;
-let trialCount = 22;
+let n = 0;
+let trialCount = 0;
 let speed = 2000;
 
 buttonConfirm.forEach((button) =>
